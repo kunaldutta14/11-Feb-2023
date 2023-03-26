@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0 15vw;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+nav img {
+    height: 25px;
+    width: 25px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin-right: 80px;
+}
+nav ul li a {
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+nav ul li a:first-child {
+    font-weight: 700;
+    font-size: 14px;
+}
+.nav-right-section {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 30px;
+    color: white;
+}
+.nav-right-section button {
+    padding: 10px 40px;
+    border-radius: 8px;
+    background: #1e1e21;
+    font-weight: 300;
+    font-size: 14px;
+}
+main {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+.mainimg {
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+.main {
+    margin-left: 180px;
+}
+.onearimg {
+    width: 320px;
+    margin-left: 50px;
+}
+.main h1 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.main h4 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.main p {
+    width: 65%;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.shopping-bag {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+.shopping-bag img {
+    color: transparent;
+    width: 15px;
+} 
+.shopping-bag p {
+    background-color: transparent;
+    margin-bottom: 0;
+    color: white;
+}
+.shopping-bag span {
+    background-color: transparent;
+}
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    top:-50px;
+    margin-bottom: 40px;
+    align-items: center;
+    position: relative;
+}
+.social-media img {
+    scale: 0.8;
+}
+.specs {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.specs-logo,
+.caselogo {
+    scale: 0.8;
+    margin-bottom: 20px;
+}
+.specs-list {
+    display: flex;
+    justify-content: center;
+}
+.specs-list img {
+    scale: 0.8;
+}
+.specs-list-items div {
+    margin-bottom: 20px;
+} 
+.specs-list-items div img {
+    scale: 0.8;
+}
+.specs-list-items div p {
+    font-size: 12px;
+}
+.specs-list-items div p:last-child { 
+    color: #bdc0c2;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 70%;
+}
+.specs-list-items div p:first-child ,
+.specs-list-items div p:last-child {
+    margin-left: 30px;
+}
+.case {
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.caseitems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.caseImage {
+    scale: 0.8;
+}
+.caseitems div {
+    width: 20%;
+}
+.caseitems div p:first-child {
+    color: #bdc0c2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.caseitems div p:last-child img {
+    scale: 0.8;
+    background: transparent;
+}
+.caseitems div p:last-child {
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.payment {
+  background: #181a1b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding: 40px 0;
+}  
+.payment h3,
+.payment p,
+.payment div,
+.payment img {
+    background-color: transparent;
+}
+.payment div {
+    width: 25%;
+}
+.payment div h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.payment div p {
+    color: #bdc0c2;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.payment div div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.payment div div img {
+    scale: 0.8;
+    margin-right: 10px;
+}
+.payment div div p{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: white;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+}
+.product-logo {
+    display: flex;
+    flex-direction: column;
+    width: 0.3;
+}
+.product-items {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.product-card {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    background: #181a1b;
+}
+.product-card img {
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    top: -40px;
+    left: 28px;
+    z-index: 100;
+}
+.product-img {
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    top: -40px;
+    left: 28px;
+    z-index: 100;
+}
+.product-img,
+.product-card span,
+.product-card p,
+.product-card img,
+.product-card div {
+    background-color: transparent;
+}
+.product-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.product-info p{
+    font-size: 12px;
+}
+.product-info p span {
+    color: #bdc0c2;
+}
+.product-info div {
+    padding: 2px 6px;
+    border-radius: 8px;
+    background: #0a0a0b;
+}
+.product-info div img {
+    width: 13px;
+    height: 13px;
+}
+footer {
+    display: flex;
+    align-items: flex-start;
+    margin: 100px 0;
+    position: relative;
+    justify-content: space-between;
+}
+.footer-logo {
+    scale: 0.8;
+}
+ul li a {
+    font-size: 12px;
+    color: #bdc0c2;
+}
+ul li:first-child a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+ul li:first-child {
+    margin-bottom: 10px;
+}
+.footer-subscription div:first-child {
+    background: #181a1b;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+}
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    gap: 10px;
+}
+.subscribe-button img {
+    scale: 0.8;
+}
+.subscribe-button p{
+    font-size: 12px;
+} 
+.footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+}
+.up-arrow{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+}
