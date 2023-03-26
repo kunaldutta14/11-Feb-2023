@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    background: #f0f4f5;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 15vh;
+}
+nav img {
+    width: 150px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main section {
+    width: 50%;
+}
+.left {
+    margin: 5%;
+    position: relative;
+}
+.top {
+    width: 25px;
+}
+.left h1 {
+    font-size: 70px;
+}
+.left p {
+    color: #7c7c7c;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.bottom {
+    width: 25px;
+    right: 25px;
+    position: absolute;
+}
+.stethoscope {
+    top: -60px;
+    width: 90%;
+    right: -25%;
+    z-index: -1;
+    position: absolute;
+}
+.mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+.left button {
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #20bc7e;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.greenbox ,
+.yellowbox {
+    position: absolute;
+    right: 0;
+}
+.greenbox {
+    width: 35%;
+    bottom: 30px;
+}
+.yellowbox {
+    width: 30%;
+    bottom: 50px;
+}
+.doctor {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 95%;
+}
